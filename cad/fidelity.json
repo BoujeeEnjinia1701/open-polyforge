@@ -1,0 +1,47 @@
+{
+ "level": "D3",
+ "stage": "P3",
+ "hash": "de0c36e163191e74",
+ "options": {
+  "PF1": {
+   "title": "Screw extruder, melt pump and slot die",
+   "parts": 315,
+   "made_or_bought": 137,
+   "fasteners": 158,
+   "welds": 20,
+   "bare": [],
+   "bare_share": 0.0,
+   "interference": [],
+   "mass_kg": 147.9,
+   "step_files": 137
+  },
+  "PF2": {
+   "title": "Ram extruder feeding the same slot die",
+   "parts": 271,
+   "made_or_bought": 125,
+   "fasteners": 124,
+   "welds": 22,
+   "bare": [],
+   "bare_share": 0.0,
+   "interference": [],
+   "mass_kg": 149.9,
+   "step_files": 0
+  },
+  "PF3": {
+   "title": "Centrifugal melt spinning (no process air)",
+   "parts": 192,
+   "made_or_bought": 100,
+   "fasteners": 72,
+   "welds": 20,
+   "bare": [],
+   "bare_share": 0.0,
+   "interference": [],
+   "mass_kg": 96.3,
+   "step_files": 0
+  }
+ },
+ "failures": [],
+ "warnings": [],
+ "passed": true,
+ "seconds": 40.3
+}

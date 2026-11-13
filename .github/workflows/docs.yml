@@ -1,0 +1,19 @@
+# Open PolyForge (kit 1.9.1-he): check document control on each push.
+name: docs
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get install -y -q libpango-1.0-0 libpangoft2-1.0-0 fontconfig
+      - run: pip install -q -r .kit/requirements.txt
+      - name: Check document control
+        run: python .kit/render.py --check

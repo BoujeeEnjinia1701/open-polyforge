@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use or build on this design, please cite it as below."
+type: software
+title: "Open PolyForge"
+abstract: "An open, maker-space-buildable machine that makes electrostatically charged melt-blown polypropylene filter media on a 2 ft x 8 ft bench from 120 V power. Design Molecule Labs with Helpful Engineering."
+authors:
+  - given-names: Brian
+    family-names: Finch
+  - given-names: Bart
+    family-names: Combee
+  - given-names: Amish
+    family-names: Chadha
+    affiliation: Design Molecule
+    orcid: "https://orcid.org/0009-0000-8079-7141"
+  - given-names: Ali
+    family-names: Raza
+  - given-names: Lillian
+    family-names: Fernandes
+  - given-names: Raksha
+    family-names: Thammaiah
+repository-code: "https://github.com/BoujeeEnjinia1701/open-polyforge"
+url: "https://helpfulengineering.org"
+license: CERN-OHL-P-2.0
+keywords:
+  - open-hardware
+  - melt-blown
+  - polypropylene
+  - filter-media
+  - distributed-manufacturing
+  - helpful-engineering

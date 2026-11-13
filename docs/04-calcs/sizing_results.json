@@ -1,0 +1,214 @@
+{
+ "circuits": {
+  "15 A": {
+   "A": 15,
+   "cont_W": 1440.0,
+   "cord_A": 12
+  },
+  "20 A": {
+   "A": 20,
+   "cont_W": 1920.0,
+   "cord_A": 16
+  }
+ },
+ "polymer": {
+  "g_min": 4.0,
+  "kg_h": 0.24000000000000002,
+  "h_kJkg": [
+   507.15,
+   724.5
+  ],
+  "W": [
+   33.81,
+   48.300000000000004
+  ],
+  "cm3_min": 5.47945205479452
+ },
+ "air_pressure": {
+  "mu": 2.823958959246022e-05,
+  "Re_slot": 1933.126091664364,
+  "q_dyn_kPa": 6.368913536892466,
+  "slot_kPa": 16.45623740368627,
+  "slot_long_kPa": 36.487519621271396,
+  "line_kPa": 1.5037199578913596,
+  "v_line": 43.20934133803701,
+  "total_kPa": [
+   23.459957361577633,
+   27.459957361577633
+  ],
+  "before_kPa": [
+   43.49123957916275,
+   47.49123957916275
+  ],
+  "Q_norm": 121.59410663739013,
+  "pump_max_kPa": 30.0,
+  "pump_rated_NLmin": 200.0
+ },
+ "air": {
+  "rho": 0.6498891364175985,
+  "slot_area_mm2": 28.799999999999997,
+  "m_kg_s": 0.002620352998035757,
+  "Q_std_Lmin": 130.58237531739653,
+  "mach": 0.2996576368663256,
+  "dp_slot_kPa": 6.513173910554915,
+  "ratio": 39.30529497053636,
+  "heater_W": 662.776916858439,
+  "heater_duty": 0.662776916858439,
+  "per_mm_W": 13.807852434550812,
+  "pump_rated_Lmin": 200.0,
+  "pump_rated_kPa": 20.0
+ },
+ "losses_W": {
+  "die": 19.135999999999996,
+  "nose": 37.26,
+  "pump": 15.363999999999999,
+  "hot_line": 17.21545198749111
+ },
+ "budget_nominal": {
+  "Process air heater": 662.776916858439,
+  "Hot air line loss (made up by the heater)": 17.21545198749111,
+  "Extruder barrel heaters (loss plus melt enthalpy)": 153.81,
+  "Extruder drive motor": 60.0,
+  "Melt pump and die heaters (losses)": 71.75999999999999,
+  "Air pump (rated input)": 250.0,
+  "Melt tube heater and barrel nose loss": 25.0,
+  "Steppers: melt pump, drum, traverse": 45.0,
+  "Corona supply input": 15.0,
+  "Controls, PID, sensors, PSU": 30.0
+ },
+ "budget_pessimistic": {
+  "Process air heater": 740.7506717829613,
+  "Hot air line loss (made up by the heater)": 25.823177981236668,
+  "Extruder barrel heaters (loss plus melt enthalpy)": 248.3,
+  "Extruder drive motor": 100.0,
+  "Melt pump and die heaters (losses)": 107.63999999999999,
+  "Air pump (rated input)": 250.0,
+  "Melt tube heater and barrel nose loss": 40.0,
+  "Steppers: melt pump, drum, traverse": 60.0,
+  "Corona supply input": 30.0,
+  "Controls, PID, sensors, PSU": 40.0
+ },
+ "total_W": [
+  1330.56236884593,
+  1642.5138497641979
+ ],
+ "current_A": [
+  11.08801974038275,
+  13.687615414701648
+ ],
+ "margin_15A_W": [
+  109.43763115407,
+  -202.51384976419786
+ ],
+ "reference_150mm": {
+  "scale": 3.125,
+  "total_W": 3060.8095671701126,
+  "current_A": 25.50674639308427,
+  "heater_W": 2071.1778651826216
+ },
+ "max_slot_mm": {
+  "15 A": 55.541063675278416,
+  "20 A": 88.61662028192396,
+  "15 A plus a 20 A circuit for the air heater": 132.0987466114485
+ },
+ "warmup": {
+  "stage1_W": 975.0,
+  "stage2_cap_W": 1440.0,
+  "hot_mass_kg": 7.800356797854969,
+  "energy_kJ": 897.0410317533214,
+  "minutes": 32.212970487277765,
+  "kWh_start": 0.7491780643759226
+ },
+ "nameplate_W": 2480,
+ "nameplate_A": 20.666666666666668,
+ "trim_K": 64.24665748872991,
+ "die": {
+  "round_equiv_mm": 0.2952606472940133,
+  "f_T": 0.6938094161556145,
+  "mu_app_Pas": 4.9995143362094465,
+  "gamma_mfr": 3872.434076090106,
+  "gamma_hole": 861.3154369931766,
+  "dp_hole_MPa": [
+   0.16982112572286284,
+   0.7342987357991132
+  ],
+  "pump_rpm": 34.24657534246575,
+  "holes_per_inch": 25.4
+ },
+ "web": {
+  "deposited_m2_h": [
+   6.72,
+   8.64
+  ],
+  "batch_m2_h": [
+   1.8948370568296928,
+   2.500337568937571
+  ],
+  "area_m2_h": 9.6,
+  "web_width_mm": 140.0,
+  "sheet_m2": 0.08796459430051422,
+  "min_per_sheet": 0.5497787143782138,
+  "surface_m_min": 18.84955592153876,
+  "energy_kWh_m2": 0.13860024675478438,
+  "energy_usd_m2": 0.019417894570345293
+ },
+ "corona": {
+  "E_avg_kV_mm": 0.625,
+  "uniform_breakdown_kV_mm": 3.0,
+  "P_out_W": 5.0,
+  "ozone_ppm_at_exhaust": 0.34722222222222215,
+  "ozone_g_h": 0.25,
+  "exhaust_m3_s": 0.1,
+  "exhaust_over_process_air": 45.94800780286208,
+  "stored_J": 0.375
+ },
+ "PF2": {
+  "charge_kg": 0.07775441817634737,
+  "run_min": 19.438604544086843,
+  "melt_min": 30.374999999999996,
+  "ram_force_N": 706.8583470577034,
+  "screw_torque_Nm": 0.625,
+  "ram_speed_mm_min": 7.751838932938585,
+  "duty": 0.32498634202456766
+ },
+ "PF3": {
+  "gmin": 12.5,
+  "melt_W": 128.296875,
+  "heater_W": [
+   450.0,
+   550.0
+  ],
+  "motor_W": 150.0,
+  "total_W": [
+   690,
+   790
+  ],
+  "rpm": 3500.0,
+  "tip_speed_m_s": 27.488935718910685,
+  "accel_m_s2": 10075.221159445384,
+  "ring_KE_J": 113.34623804376056,
+  "qf_best": 0.001814438636452947,
+  "qf_ref": 0.010022633314856809,
+  "fibre_um": "3.4 to 5.2 mean (Molina et al. 2022)"
+ },
+ "mass_kg": {
+  "PF1": 147.91976877241115,
+  "PF2": 149.91048499460598,
+  "PF3": 96.32351671364808
+ },
+ "bom_total": 14075.15,
+ "electricity_usd_kwh": 0.1401,
+ "envelope_mm": {
+  "length": 2288.0,
+  "depth": 600.0,
+  "height": 746.0,
+  "x": [
+   76.0,
+   2364.0
+  ],
+  "y": [
+   -304.0,
+   296.00000000000006
+  ]
+ }
+}
